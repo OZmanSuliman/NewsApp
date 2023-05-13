@@ -20,34 +20,6 @@
                ReferencedContainer = "container:NewsApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D635E8429FC311200F4B49B"
-               BuildableName = "NewsAppTests.xctest"
-               BlueprintName = "NewsAppTests"
-               ReferencedContainer = "container:NewsApp.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D635E8E29FC311200F4B49B"
-               BuildableName = "NewsAppUITests.xctest"
-               BlueprintName = "NewsAppUITests"
-               ReferencedContainer = "container:NewsApp.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -56,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D635E8429FC311200F4B49B"
-               BuildableName = "NewsAppTests.xctest"
-               BlueprintName = "NewsAppTests"
-               ReferencedContainer = "container:NewsApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D635E8E29FC311200F4B49B"
-               BuildableName = "NewsAppUITests.xctest"
-               BlueprintName = "NewsAppUITests"
-               ReferencedContainer = "container:NewsApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
