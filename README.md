@@ -50,7 +50,7 @@ unit test, and UI testing. Currently there is no deploy to Appstore since the pr
 
 ## Automated Tests
 The project contains UITests and Unit Tests.
-The coverage is 68.5%
+The coverage is 68.5%. The current coverage is just part of a prove of concept, and in real project I'd prefer to make it 90% minimum and follow the TDD in my process.
 
 ## Design pattern
 These are examples for design patterns used in the app and not included to:
