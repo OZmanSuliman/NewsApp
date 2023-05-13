@@ -16,7 +16,6 @@ class GetAPIArticlesWorker {
     init(network: ArticlesNetworkServiceProtocol) {
         self.network = network
     }
-    
 }
 
 
