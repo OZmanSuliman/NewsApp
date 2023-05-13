@@ -9,7 +9,6 @@ import XCTest
 @testable import NewsApp_Dev
 
 class EmptyTableViewCellTests: XCTestCase {
-
     var cell: EmptyTableViewCell!
 
     override func setUp() {

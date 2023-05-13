@@ -8,7 +8,6 @@
 import Foundation
 
 protocol APIRequestProtocol {
-    
     var endpoint: String { get }
     var method: HTTPMethod { get }
     var parameters: [String: Any] { get }
@@ -21,7 +20,6 @@ protocol APIRequestProtocol {
 }
 
 extension APIRequestProtocol {
-
     var method: HTTPMethod { return .get }
     var parameters: [String: Any] { return [:] }
     var arrayParameters: [[String: Any]]? { return [[:]] }
@@ -32,11 +30,8 @@ extension APIRequestProtocol {
     var apiTokenType: APITokenType? { return .accessToken }
 }
 
-
 enum APITokenType {
     case none // for requests that doesn't need an access token
     case accessToken
     case refreshToken
 }
-
-
