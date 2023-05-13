@@ -1,5 +1,5 @@
 # NewsApp
-
+The App is developed using XCode 14.2, Swift 5.7, UIKit, and tested on iPhone 13, iOS 16.4.1.
 
 
 
