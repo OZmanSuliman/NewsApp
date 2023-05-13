@@ -1,0 +1,52 @@
+name: Development workflow
+
+on:
+  push:
+    branches: [ "development" ]
+  pull_request:
+    branches: [ "development" ]
+
+jobs:
+  build:
+    env:
+     PROJECT: "NewsApp.xcodeproj"
+     SCHEME: "NewsApp-Dev"
+    runs-on: macos-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Build
+      run: xcodebuild -scheme $SCHEME -project $PROJECT -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.2' build
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: BuildArtifacts
+        path: $PROJECT/build/Release-iphonesimulator/$PROJECT.app
+
+  unit_test:
+    env:
+     PROJECT: "NewsApp.xcodeproj"
+     TESTTARGET: "NewsAppTests"
+     SCHEME: "NewsApp-Dev"
+    needs: build
+    runs-on: macos-latest
+    if: success()
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Run Unit Tests
+      run: xcodebuild -scheme $SCHEME -project $PROJECT -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.2' test -only-testing:$TESTTARGET
+
+  ui_test:
+    env:
+     PROJECT: "NewsApp.xcodeproj"
+     SCHEME: "NewsApp-Dev"
+     TESTTARGET: "NewsAppUITests"
+    needs: build
+    runs-on: macos-latest
+    if: success()
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Run UI Tests
+      run: xcodebuild -scheme $SCHEME -project $PROJECT -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.2' test -only-testing:$TESTTARGET
