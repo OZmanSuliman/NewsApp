@@ -8,9 +8,7 @@
 import Foundation
 
 protocol ArticleDetailsRouterLogic {
-    
 }
-
 class ArticleDetailsRouter {
     let viewController: ArticleDetailsViewController
     init(viewController: ArticleDetailsViewController) {
@@ -19,5 +17,4 @@ class ArticleDetailsRouter {
 }
 
 extension ArticleDetailsRouter: ArticleDetailsRouterLogic {
-    
 }

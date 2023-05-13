@@ -119,10 +119,6 @@
 		2D998DB429FE3A29008FE4D0 /* ArticleDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D998DB229FE3A29008FE4D0 /* ArticleDetailsViewController.xib */; };
 		2D998DB529FE3A29008FE4D0 /* ArticleDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D998DB229FE3A29008FE4D0 /* ArticleDetailsViewController.xib */; };
 		2D998DB629FE3A29008FE4D0 /* ArticleDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D998DB229FE3A29008FE4D0 /* ArticleDetailsViewController.xib */; };
-		2D998DC629FE4C38008FE4D0 /* FindArticleWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D998DC529FE4C38008FE4D0 /* FindArticleWorker.swift */; };
-		2D998DC729FE4C38008FE4D0 /* FindArticleWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D998DC529FE4C38008FE4D0 /* FindArticleWorker.swift */; };
-		2D998DC829FE4C38008FE4D0 /* FindArticleWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D998DC529FE4C38008FE4D0 /* FindArticleWorker.swift */; };
-		2D998DC929FE4C38008FE4D0 /* FindArticleWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D998DC529FE4C38008FE4D0 /* FindArticleWorker.swift */; };
 		2DD31A2D2A0F5F3200C22898 /* MockDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A2C2A0F5F3200C22898 /* MockDatabaseService.swift */; };
 		2DD31A2E2A0F5F3200C22898 /* MockDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A2C2A0F5F3200C22898 /* MockDatabaseService.swift */; };
 		2DD31A2F2A0F5F3200C22898 /* MockDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A2C2A0F5F3200C22898 /* MockDatabaseService.swift */; };
@@ -402,7 +398,6 @@
 		2D998DA829FE3A08008FE4D0 /* ArticleDetailsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsConfig.swift; sourceTree = "<group>"; };
 		2D998DAD29FE3A20008FE4D0 /* ArticleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsViewController.swift; sourceTree = "<group>"; };
 		2D998DB229FE3A29008FE4D0 /* ArticleDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleDetailsViewController.xib; sourceTree = "<group>"; };
-		2D998DC529FE4C38008FE4D0 /* FindArticleWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindArticleWorker.swift; sourceTree = "<group>"; };
 		2DD31A2C2A0F5F3200C22898 /* MockDatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDatabaseService.swift; sourceTree = "<group>"; };
 		2DD31A312A0F5F7C00C22898 /* ServicesFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesFactoryTests.swift; sourceTree = "<group>"; };
 		2DD31A402A0F61D300C22898 /* KeychainServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainServiceTests.swift; sourceTree = "<group>"; };
@@ -648,7 +643,7 @@
 			children = (
 				2D998D9829FE39D4008FE4D0 /* ArticleDetailsView */,
 				2D998D9E29FE39FB008FE4D0 /* ArticleDetailsPresenter.swift */,
-				2D998DC329FE4C08008FE4D0 /* ArticleDetailsInteractor */,
+				2D998D9929FE39F1008FE4D0 /* ArticleDetailsInteractor.swift */,
 				2D998DA329FE3A02008FE4D0 /* ArticleDetailsRouter.swift */,
 				2D998DA829FE3A08008FE4D0 /* ArticleDetailsConfig.swift */,
 			);
@@ -662,23 +657,6 @@
 				2D998DB229FE3A29008FE4D0 /* ArticleDetailsViewController.xib */,
 			);
 			path = ArticleDetailsView;
-			sourceTree = "<group>";
-		};
-		2D998DC329FE4C08008FE4D0 /* ArticleDetailsInteractor */ = {
-			isa = PBXGroup;
-			children = (
-				2D998DC429FE4C24008FE4D0 /* Workers */,
-				2D998D9929FE39F1008FE4D0 /* ArticleDetailsInteractor.swift */,
-			);
-			path = ArticleDetailsInteractor;
-			sourceTree = "<group>";
-		};
-		2D998DC429FE4C24008FE4D0 /* Workers */ = {
-			isa = PBXGroup;
-			children = (
-				2D998DC529FE4C38008FE4D0 /* FindArticleWorker.swift */,
-			);
-			path = Workers;
 			sourceTree = "<group>";
 		};
 		2DD31A612A0F77A800C22898 /* Presenter */ = {
@@ -1320,7 +1298,6 @@
 				2DEA146129FCF69600E76FED /* API.swift in Sources */,
 				2DEA154C29FD69D400E76FED /* Status.swift in Sources */,
 				2DEA148429FCF90C00E76FED /* HomeConfig.swift in Sources */,
-				2D998DC629FE4C38008FE4D0 /* FindArticleWorker.swift in Sources */,
 				2D998DA929FE3A08008FE4D0 /* ArticleDetailsConfig.swift in Sources */,
 				2DD31A652A0F786C00C22898 /* MockHomeDisplayLogic.swift in Sources */,
 				2D635EC529FC368D00F4B49B /* EnvironmentManager.swift in Sources */,
@@ -1374,7 +1351,6 @@
 				2DEA151929FD1F6B00E76FED /* HomeTableViewHeaderView.swift in Sources */,
 				2DEA148129FCF8EC00E76FED /* HomeRouter.swift in Sources */,
 				2D998DB129FE3A20008FE4D0 /* ArticleDetailsViewController.swift in Sources */,
-				2D998DC929FE4C38008FE4D0 /* FindArticleWorker.swift in Sources */,
 				2DD31A472A0F689400C22898 /* MockNetworkingService.swift in Sources */,
 				2DD31A532A0F6A8800C22898 /* MockArticlesNetworkService.swift in Sources */,
 				2DEA14AE29FCFFC600E76FED /* UITableViewCell+Extension.swift in Sources */,
@@ -1469,7 +1445,6 @@
 				2DEA146329FCF69600E76FED /* API.swift in Sources */,
 				2DEA154E29FD69D400E76FED /* Status.swift in Sources */,
 				2DEA148629FCF90C00E76FED /* HomeConfig.swift in Sources */,
-				2D998DC829FE4C38008FE4D0 /* FindArticleWorker.swift in Sources */,
 				2D998DAB29FE3A08008FE4D0 /* ArticleDetailsConfig.swift in Sources */,
 				2DD31A672A0F786C00C22898 /* MockHomeDisplayLogic.swift in Sources */,
 				2D635EC629FC368D00F4B49B /* EnvironmentManager.swift in Sources */,
@@ -1535,7 +1510,6 @@
 				2DEA146229FCF69600E76FED /* API.swift in Sources */,
 				2DEA154D29FD69D400E76FED /* Status.swift in Sources */,
 				2DEA148529FCF90C00E76FED /* HomeConfig.swift in Sources */,
-				2D998DC729FE4C38008FE4D0 /* FindArticleWorker.swift in Sources */,
 				2D998DAA29FE3A08008FE4D0 /* ArticleDetailsConfig.swift in Sources */,
 				2DD31A662A0F786C00C22898 /* MockHomeDisplayLogic.swift in Sources */,
 				2D635EC729FC368D00F4B49B /* EnvironmentManager.swift in Sources */,

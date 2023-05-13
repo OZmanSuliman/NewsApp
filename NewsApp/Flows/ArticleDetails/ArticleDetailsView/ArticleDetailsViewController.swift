@@ -9,7 +9,6 @@ import UIKit
 import WebKit
 
 protocol ArticleDetailsDisplayLogic {
-    func updateArticle(_ article: NSAttributedString)
 }
 
 class ArticleDetailsViewController: UIViewController {
@@ -27,9 +26,6 @@ class ArticleDetailsViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        if let article {
-            self.interactor?.fetchArticle(article)
-        }
     }
     
     override func viewDidLoad() {
@@ -97,7 +93,4 @@ extension ArticleDetailsViewController {
 
 
 extension ArticleDetailsViewController: ArticleDetailsDisplayLogic {
-    func updateArticle(_ article: NSAttributedString) {
-//        textView.attributedText = article
-    }
 }
