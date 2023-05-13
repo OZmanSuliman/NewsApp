@@ -70,7 +70,6 @@
 		2D635E7529FC311100F4B49B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635E7429FC311100F4B49B /* SceneDelegate.swift */; };
 		2D635E7C29FC311200F4B49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D635E7B29FC311200F4B49B /* Assets.xcassets */; };
 		2D635E7F29FC311200F4B49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D635E7D29FC311200F4B49B /* LaunchScreen.storyboard */; };
-		2D635E9429FC311200F4B49B /* NewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635E9329FC311200F4B49B /* NewsAppUITests.swift */; };
 		2D635E9629FC311200F4B49B /* NewsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635E9529FC311200F4B49B /* NewsAppUITestsLaunchTests.swift */; };
 		2D635EA529FC331D00F4B49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635E7229FC311100F4B49B /* AppDelegate.swift */; };
 		2D635EA629FC331D00F4B49B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D635E7429FC311100F4B49B /* SceneDelegate.swift */; };
@@ -130,10 +129,6 @@
 		2DD31A3E2A0F60B300C22898 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2DD31A3D2A0F60B300C22898 /* Lottie */; };
 		2DD31A3F2A0F60F800C22898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D635E7B29FC311200F4B49B /* Assets.xcassets */; };
 		2DD31A412A0F61D300C22898 /* KeychainServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A402A0F61D300C22898 /* KeychainServiceTests.swift */; };
-		2DD31A442A0F689200C22898 /* MockNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A422A0F687800C22898 /* MockNetworkingService.swift */; };
-		2DD31A452A0F689200C22898 /* MockNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A422A0F687800C22898 /* MockNetworkingService.swift */; };
-		2DD31A462A0F689300C22898 /* MockNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A422A0F687800C22898 /* MockNetworkingService.swift */; };
-		2DD31A472A0F689400C22898 /* MockNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A422A0F687800C22898 /* MockNetworkingService.swift */; };
 		2DD31A492A0F68F300C22898 /* GetAPIArticlesWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A482A0F68F300C22898 /* GetAPIArticlesWorkerTests.swift */; };
 		2DD31A502A0F6A8800C22898 /* MockArticlesNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A4F2A0F6A8800C22898 /* MockArticlesNetworkService.swift */; };
 		2DD31A512A0F6A8800C22898 /* MockArticlesNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A4F2A0F6A8800C22898 /* MockArticlesNetworkService.swift */; };
@@ -142,16 +137,25 @@
 		2DD31A552A0F70A200C22898 /* GetPersistedArticlesWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A542A0F70A200C22898 /* GetPersistedArticlesWorkerTests.swift */; };
 		2DD31A572A0F713100C22898 /* PersistArticleWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A562A0F713100C22898 /* PersistArticleWorkerTests.swift */; };
 		2DD31A592A0F736600C22898 /* RemoveArticleWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A582A0F736600C22898 /* RemoveArticleWorkerTests.swift */; };
-		2DD31A5D2A0F771100C22898 /* MockHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A5C2A0F771100C22898 /* MockHomePresenter.swift */; };
-		2DD31A5E2A0F771100C22898 /* MockHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A5C2A0F771100C22898 /* MockHomePresenter.swift */; };
-		2DD31A5F2A0F771100C22898 /* MockHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A5C2A0F771100C22898 /* MockHomePresenter.swift */; };
-		2DD31A602A0F771100C22898 /* MockHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A5C2A0F771100C22898 /* MockHomePresenter.swift */; };
 		2DD31A632A0F77DB00C22898 /* HomeConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A622A0F77DB00C22898 /* HomeConfigurationTests.swift */; };
 		2DD31A652A0F786C00C22898 /* MockHomeDisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A642A0F786C00C22898 /* MockHomeDisplayLogic.swift */; };
 		2DD31A662A0F786C00C22898 /* MockHomeDisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A642A0F786C00C22898 /* MockHomeDisplayLogic.swift */; };
 		2DD31A672A0F786C00C22898 /* MockHomeDisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A642A0F786C00C22898 /* MockHomeDisplayLogic.swift */; };
 		2DD31A682A0F786C00C22898 /* MockHomeDisplayLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A642A0F786C00C22898 /* MockHomeDisplayLogic.swift */; };
 		2DD31A6A2A0F788700C22898 /* HomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A692A0F788700C22898 /* HomePresenterTests.swift */; };
+		2DD31A752A0F80E100C22898 /* HomeHeaderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A742A0F80E100C22898 /* HomeHeaderViewTests.swift */; };
+		2DD31A772A0F859100C22898 /* ArticleDetailsConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A762A0F859100C22898 /* ArticleDetailsConfigTests.swift */; };
+		2DD31A792A0F865400C22898 /* NibinstantiableHeaderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A782A0F865400C22898 /* NibinstantiableHeaderViewTests.swift */; };
+		2DD31A7B2A0F872300C22898 /* ArticleDetailsRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A7A2A0F872300C22898 /* ArticleDetailsRouterTests.swift */; };
+		2DD31A7D2A0F877600C22898 /* ArticleDetailsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A7C2A0F877600C22898 /* ArticleDetailsInteractorTests.swift */; };
+		2DD31A7F2A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A7E2A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift */; };
+		2DD31A802A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A7E2A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift */; };
+		2DD31A812A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A7E2A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift */; };
+		2DD31A822A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A7E2A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift */; };
+		2DD31A842A0F886100C22898 /* InternetObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A832A0F886100C22898 /* InternetObserverTests.swift */; };
+		2DD31A862A0F896700C22898 /* ArticleDetailsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A852A0F896700C22898 /* ArticleDetailsPresenterTests.swift */; };
+		2DD31A882A0F89FC00C22898 /* UILabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A872A0F89FC00C22898 /* UILabelTests.swift */; };
+		2DD31A8A2A0F8B2C00C22898 /* EmptyTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD31A892A0F8B2C00C22898 /* EmptyTableViewCellTests.swift */; };
 		2DEA13DF29FCEB4D00E76FED /* UserDefaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEA13DE29FCEB4D00E76FED /* UserDefaultInfo.swift */; };
 		2DEA13E229FCEB6900E76FED /* UserDefaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEA13DE29FCEB4D00E76FED /* UserDefaultInfo.swift */; };
 		2DEA13E429FCEB6900E76FED /* UserDefaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEA13DE29FCEB4D00E76FED /* UserDefaultInfo.swift */; };
@@ -383,7 +387,6 @@
 		2D635E8029FC311200F4B49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D635E8529FC311200F4B49B /* NewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D635E8F29FC311200F4B49B /* NewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D635E9329FC311200F4B49B /* NewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITests.swift; sourceTree = "<group>"; };
 		2D635E9529FC311200F4B49B /* NewsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2D635EAF29FC331D00F4B49B /* NewsApp-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewsApp-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D635EBE29FC334000F4B49B /* NewsApp-Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewsApp-Staging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -401,16 +404,24 @@
 		2DD31A2C2A0F5F3200C22898 /* MockDatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDatabaseService.swift; sourceTree = "<group>"; };
 		2DD31A312A0F5F7C00C22898 /* ServicesFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesFactoryTests.swift; sourceTree = "<group>"; };
 		2DD31A402A0F61D300C22898 /* KeychainServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainServiceTests.swift; sourceTree = "<group>"; };
-		2DD31A422A0F687800C22898 /* MockNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkingService.swift; sourceTree = "<group>"; };
 		2DD31A482A0F68F300C22898 /* GetAPIArticlesWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAPIArticlesWorkerTests.swift; sourceTree = "<group>"; };
 		2DD31A4F2A0F6A8800C22898 /* MockArticlesNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockArticlesNetworkService.swift; sourceTree = "<group>"; };
 		2DD31A542A0F70A200C22898 /* GetPersistedArticlesWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPersistedArticlesWorkerTests.swift; sourceTree = "<group>"; };
 		2DD31A562A0F713100C22898 /* PersistArticleWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistArticleWorkerTests.swift; sourceTree = "<group>"; };
 		2DD31A582A0F736600C22898 /* RemoveArticleWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveArticleWorkerTests.swift; sourceTree = "<group>"; };
-		2DD31A5C2A0F771100C22898 /* MockHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomePresenter.swift; sourceTree = "<group>"; };
 		2DD31A622A0F77DB00C22898 /* HomeConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeConfigurationTests.swift; sourceTree = "<group>"; };
 		2DD31A642A0F786C00C22898 /* MockHomeDisplayLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeDisplayLogic.swift; sourceTree = "<group>"; };
 		2DD31A692A0F788700C22898 /* HomePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTests.swift; sourceTree = "<group>"; };
+		2DD31A742A0F80E100C22898 /* HomeHeaderViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderViewTests.swift; sourceTree = "<group>"; };
+		2DD31A762A0F859100C22898 /* ArticleDetailsConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsConfigTests.swift; sourceTree = "<group>"; };
+		2DD31A782A0F865400C22898 /* NibinstantiableHeaderViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibinstantiableHeaderViewTests.swift; sourceTree = "<group>"; };
+		2DD31A7A2A0F872300C22898 /* ArticleDetailsRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsRouterTests.swift; sourceTree = "<group>"; };
+		2DD31A7C2A0F877600C22898 /* ArticleDetailsInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsInteractorTests.swift; sourceTree = "<group>"; };
+		2DD31A7E2A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsDisplayLogicMock.swift; sourceTree = "<group>"; };
+		2DD31A832A0F886100C22898 /* InternetObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetObserverTests.swift; sourceTree = "<group>"; };
+		2DD31A852A0F896700C22898 /* ArticleDetailsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsPresenterTests.swift; sourceTree = "<group>"; };
+		2DD31A872A0F89FC00C22898 /* UILabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelTests.swift; sourceTree = "<group>"; };
+		2DD31A892A0F8B2C00C22898 /* EmptyTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTableViewCellTests.swift; sourceTree = "<group>"; };
 		2DEA13DE29FCEB4D00E76FED /* UserDefaultInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultInfo.swift; sourceTree = "<group>"; };
 		2DEA13E929FCEB8600E76FED /* InternetObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetObserver.swift; sourceTree = "<group>"; };
 		2DEA13EF29FCEBBF00E76FED /* NotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNames.swift; sourceTree = "<group>"; };
@@ -575,7 +586,7 @@
 			isa = PBXGroup;
 			children = (
 				2DD31A6D2A0F7BD700C22898 /* Flows */,
-				2DD31A6B2A0F7BC300C22898 /* Services */,
+				2DD31A6B2A0F7BC300C22898 /* Services+Utils */,
 			);
 			path = NewsAppTests;
 			sourceTree = "<group>";
@@ -583,8 +594,9 @@
 		2D635E9229FC311200F4B49B /* NewsAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2D635E9329FC311200F4B49B /* NewsAppUITests.swift */,
-				2D635E9529FC311200F4B49B /* NewsAppUITestsLaunchTests.swift */,
+				2DD31A732A0F80C100C22898 /* LaunchScreen */,
+				2DD31A722A0F80B500C22898 /* Details */,
+				2DD31A712A0F80AC00C22898 /* Home */,
 			);
 			path = NewsAppUITests;
 			sourceTree = "<group>";
@@ -654,6 +666,7 @@
 			isa = PBXGroup;
 			children = (
 				2D998DAD29FE3A20008FE4D0 /* ArticleDetailsViewController.swift */,
+				2DD31A7E2A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift */,
 				2D998DB229FE3A29008FE4D0 /* ArticleDetailsViewController.xib */,
 			);
 			path = ArticleDetailsView;
@@ -663,18 +676,20 @@
 			isa = PBXGroup;
 			children = (
 				2DEA147729FCF8D500E76FED /* HomePresenter.swift */,
-				2DD31A5C2A0F771100C22898 /* MockHomePresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		2DD31A6B2A0F7BC300C22898 /* Services */ = {
+		2DD31A6B2A0F7BC300C22898 /* Services+Utils */ = {
 			isa = PBXGroup;
 			children = (
 				2DD31A312A0F5F7C00C22898 /* ServicesFactoryTests.swift */,
 				2DD31A402A0F61D300C22898 /* KeychainServiceTests.swift */,
+				2DD31A782A0F865400C22898 /* NibinstantiableHeaderViewTests.swift */,
+				2DD31A832A0F886100C22898 /* InternetObserverTests.swift */,
+				2DD31A872A0F89FC00C22898 /* UILabelTests.swift */,
 			);
-			path = Services;
+			path = "Services+Utils";
 			sourceTree = "<group>";
 		};
 		2DD31A6C2A0F7BCD00C22898 /* Home */ = {
@@ -702,8 +717,36 @@
 		2DD31A6E2A0F7BE000C22898 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				2DD31A762A0F859100C22898 /* ArticleDetailsConfigTests.swift */,
+				2DD31A7A2A0F872300C22898 /* ArticleDetailsRouterTests.swift */,
+				2DD31A7C2A0F877600C22898 /* ArticleDetailsInteractorTests.swift */,
+				2DD31A852A0F896700C22898 /* ArticleDetailsPresenterTests.swift */,
 			);
 			path = Details;
+			sourceTree = "<group>";
+		};
+		2DD31A712A0F80AC00C22898 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2DD31A742A0F80E100C22898 /* HomeHeaderViewTests.swift */,
+				2DD31A892A0F8B2C00C22898 /* EmptyTableViewCellTests.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2DD31A722A0F80B500C22898 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		2DD31A732A0F80C100C22898 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2D635E9529FC311200F4B49B /* NewsAppUITestsLaunchTests.swift */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 		2DEA13DD29FCEB0E00E76FED /* Helpers */ = {
@@ -793,7 +836,6 @@
 				2DEA142A29FCEE3300E76FED /* Requests */,
 				2DEA142B29FCEE3F00E76FED /* ErrorParser */,
 				2DEA142C29FCEE5B00E76FED /* NetworkService.swift */,
-				2DD31A422A0F687800C22898 /* MockNetworkingService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -1310,16 +1352,15 @@
 				2D32A9D52A0DFB28006B686D /* Article.swift in Sources */,
 				2DEA14AB29FCFFC600E76FED /* UITableViewCell+Extension.swift in Sources */,
 				2D32A9E82A0E4D3C006B686D /* GetAPIArticlesWorker.swift in Sources */,
-				2DD31A5D2A0F771100C22898 /* MockHomePresenter.swift in Sources */,
 				2DEA143C29FCF09600E76FED /* APIError.swift in Sources */,
 				2D32A9FB2A0EA077006B686D /* LottieCustomView.swift in Sources */,
 				2DEA142D29FCEE5B00E76FED /* NetworkService.swift in Sources */,
 				2DEA155D29FD878A00E76FED /* EmptyTableViewCell.swift in Sources */,
 				2D32A9D92A0DFB28006B686D /* MostPopularArticles_Base.swift in Sources */,
-				2DD31A462A0F689300C22898 /* MockNetworkingService.swift in Sources */,
 				2DEA155229FD71EA00E76FED /* PersistArticleWorker.swift in Sources */,
 				2DEA145029FCF18000E76FED /* ArticlesNetworkService.swift in Sources */,
 				2DEA147E29FCF8EC00E76FED /* HomeRouter.swift in Sources */,
+				2DD31A7F2A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift in Sources */,
 				2DEA152C29FD1FE600E76FED /* NibInstantiate.swift in Sources */,
 				2DEA140E29FCED6900E76FED /* DatabaseService.swift in Sources */,
 				2D32A9DE2A0E02B3006B686D /* MediaData.swift in Sources */,
@@ -1331,13 +1372,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DD31A492A0F68F300C22898 /* GetAPIArticlesWorkerTests.swift in Sources */,
+				2DD31A882A0F89FC00C22898 /* UILabelTests.swift in Sources */,
 				2DD31A412A0F61D300C22898 /* KeychainServiceTests.swift in Sources */,
 				2DD31A6A2A0F788700C22898 /* HomePresenterTests.swift in Sources */,
 				2DD31A322A0F5F7C00C22898 /* ServicesFactoryTests.swift in Sources */,
 				2DD31A632A0F77DB00C22898 /* HomeConfigurationTests.swift in Sources */,
 				2DD31A552A0F70A200C22898 /* GetPersistedArticlesWorkerTests.swift in Sources */,
 				2DD31A572A0F713100C22898 /* PersistArticleWorkerTests.swift in Sources */,
+				2DD31A7B2A0F872300C22898 /* ArticleDetailsRouterTests.swift in Sources */,
+				2DD31A772A0F859100C22898 /* ArticleDetailsConfigTests.swift in Sources */,
 				2DD31A592A0F736600C22898 /* RemoveArticleWorkerTests.swift in Sources */,
+				2DD31A862A0F896700C22898 /* ArticleDetailsPresenterTests.swift in Sources */,
+				2DD31A842A0F886100C22898 /* InternetObserverTests.swift in Sources */,
+				2DD31A7D2A0F877600C22898 /* ArticleDetailsInteractorTests.swift in Sources */,
+				2DD31A792A0F865400C22898 /* NibinstantiableHeaderViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1351,7 +1399,6 @@
 				2DEA151929FD1F6B00E76FED /* HomeTableViewHeaderView.swift in Sources */,
 				2DEA148129FCF8EC00E76FED /* HomeRouter.swift in Sources */,
 				2D998DB129FE3A20008FE4D0 /* ArticleDetailsViewController.swift in Sources */,
-				2DD31A472A0F689400C22898 /* MockNetworkingService.swift in Sources */,
 				2DD31A532A0F6A8800C22898 /* MockArticlesNetworkService.swift in Sources */,
 				2DEA14AE29FCFFC600E76FED /* UITableViewCell+Extension.swift in Sources */,
 				2DD31A682A0F786C00C22898 /* MockHomeDisplayLogic.swift in Sources */,
@@ -1359,12 +1406,15 @@
 				2DEA156029FD878A00E76FED /* EmptyTableViewCell.swift in Sources */,
 				2DEA149D29FCF94000E76FED /* ArticleCell.swift in Sources */,
 				2DEA154F29FD69D400E76FED /* Status.swift in Sources */,
+				2DD31A8A2A0F8B2C00C22898 /* EmptyTableViewCellTests.swift in Sources */,
 				2D998DA229FE39FB008FE4D0 /* ArticleDetailsPresenter.swift in Sources */,
+				2DD31A822A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift in Sources */,
 				2DEA14B329FD006100E76FED /* ReusableCell.swift in Sources */,
 				2D32A9DC2A0DFB28006B686D /* MostPopularArticles_Base.swift in Sources */,
 				2DEA152A29FD1FB200E76FED /* HomeHeaderView.swift in Sources */,
 				2DEA141629FCEDAC00E76FED /* AppStoredSettings.swift in Sources */,
 				2DEA13FF29FCEC7900E76FED /* ServicesFactory.swift in Sources */,
+				2DD31A752A0F80E100C22898 /* HomeHeaderViewTests.swift in Sources */,
 				2DEA147B29FCF8D500E76FED /* HomePresenter.swift in Sources */,
 				2D32A9E62A0E02C6006B686D /* MediaMetadata.swift in Sources */,
 				2D635ED429FC39CF00F4B49B /* SceneDelegate.swift in Sources */,
@@ -1382,7 +1432,6 @@
 				2DEA143529FCF07D00E76FED /* APIRequestProtocol.swift in Sources */,
 				2DEA143A29FCF08900E76FED /* APIResponseProtocol.swift in Sources */,
 				2D32A9EB2A0E4D3C006B686D /* GetAPIArticlesWorker.swift in Sources */,
-				2DD31A602A0F771100C22898 /* MockHomePresenter.swift in Sources */,
 				2D635E9629FC311200F4B49B /* NewsAppUITestsLaunchTests.swift in Sources */,
 				2DEA144429FCF0B100E76FED /* BackendError.swift in Sources */,
 				2D635ED129FC39B900F4B49B /* EnvironmentManager.swift in Sources */,
@@ -1400,7 +1449,6 @@
 				2DEA146429FCF69600E76FED /* API.swift in Sources */,
 				2DEA13F329FCEBBF00E76FED /* NotificationNames.swift in Sources */,
 				2D998D9D29FE39F1008FE4D0 /* ArticleDetailsInteractor.swift in Sources */,
-				2D635E9429FC311200F4B49B /* NewsAppUITests.swift in Sources */,
 				2D635ED829FC39E000F4B49B /* Strings.swift in Sources */,
 				2DEA143F29FCF09600E76FED /* APIError.swift in Sources */,
 				2DEA145829FCF63C00E76FED /* MostPopularRequest.swift in Sources */,
@@ -1457,16 +1505,15 @@
 				2D32A9D72A0DFB28006B686D /* Article.swift in Sources */,
 				2DEA14AD29FCFFC600E76FED /* UITableViewCell+Extension.swift in Sources */,
 				2D32A9EA2A0E4D3C006B686D /* GetAPIArticlesWorker.swift in Sources */,
-				2DD31A5F2A0F771100C22898 /* MockHomePresenter.swift in Sources */,
 				2DEA143E29FCF09600E76FED /* APIError.swift in Sources */,
 				2D32A9FD2A0EA077006B686D /* LottieCustomView.swift in Sources */,
 				2DEA142F29FCEE5B00E76FED /* NetworkService.swift in Sources */,
 				2DEA155F29FD878A00E76FED /* EmptyTableViewCell.swift in Sources */,
 				2D32A9DB2A0DFB28006B686D /* MostPopularArticles_Base.swift in Sources */,
-				2DD31A442A0F689200C22898 /* MockNetworkingService.swift in Sources */,
 				2DEA155429FD71EA00E76FED /* PersistArticleWorker.swift in Sources */,
 				2DEA145229FCF18000E76FED /* ArticlesNetworkService.swift in Sources */,
 				2DEA148029FCF8EC00E76FED /* HomeRouter.swift in Sources */,
+				2DD31A812A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift in Sources */,
 				2DEA152E29FD1FE600E76FED /* NibInstantiate.swift in Sources */,
 				2DEA141029FCED6900E76FED /* DatabaseService.swift in Sources */,
 				2D32A9E02A0E02B3006B686D /* MediaData.swift in Sources */,
@@ -1522,16 +1569,15 @@
 				2D32A9D62A0DFB28006B686D /* Article.swift in Sources */,
 				2DEA14AC29FCFFC600E76FED /* UITableViewCell+Extension.swift in Sources */,
 				2D32A9E92A0E4D3C006B686D /* GetAPIArticlesWorker.swift in Sources */,
-				2DD31A5E2A0F771100C22898 /* MockHomePresenter.swift in Sources */,
 				2DEA143D29FCF09600E76FED /* APIError.swift in Sources */,
 				2D32A9FC2A0EA077006B686D /* LottieCustomView.swift in Sources */,
 				2DEA142E29FCEE5B00E76FED /* NetworkService.swift in Sources */,
 				2DEA155E29FD878A00E76FED /* EmptyTableViewCell.swift in Sources */,
 				2D32A9DA2A0DFB28006B686D /* MostPopularArticles_Base.swift in Sources */,
-				2DD31A452A0F689200C22898 /* MockNetworkingService.swift in Sources */,
 				2DEA155329FD71EA00E76FED /* PersistArticleWorker.swift in Sources */,
 				2DEA145129FCF18000E76FED /* ArticlesNetworkService.swift in Sources */,
 				2DEA147F29FCF8EC00E76FED /* HomeRouter.swift in Sources */,
+				2DD31A802A0F87C800C22898 /* ArticleDetailsDisplayLogicMock.swift in Sources */,
 				2DEA152D29FD1FE600E76FED /* NibInstantiate.swift in Sources */,
 				2DEA140F29FCED6900E76FED /* DatabaseService.swift in Sources */,
 				2D32A9DF2A0E02B3006B686D /* MediaData.swift in Sources */,
