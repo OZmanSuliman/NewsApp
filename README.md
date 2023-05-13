@@ -28,7 +28,7 @@ The views are based on UIStackViews. The animitations are powered by Lottie sinc
 I was going to use SwiftUI since it's the latest technology, but the Job Description I'm applying for mentioned having knowledge in UIKit so I decided to focus on demonstrating my skills on it.
 
 ## Reusability
-as part of the architure, the project compenents are highly losed which makes them reusable.
+As part of the architure, the project compenents are highly losed which makes them reusable.
 
 ## Data Source
 ### Remote
@@ -36,29 +36,29 @@ The project uses NYTimes API as required.
 
 ### Local
 The database used in the project is Realm Swift (https://realm.io/realm-swift)
-the reason behind that is the impelementaion of realm database is faster than CoreData and there is no big differences on the
+The reason behind that is the impelementaion of realm database is faster than CoreData and there is no big differences on the
 stability between the 2 databases, so I followed the system design role that's says 
 "always use the use the minimum if it serve the requirements". if the database contained complecated data and refrences, then CoreData
 would be more useful.
 
 ## CI/CD
 The Github repository has 2 workflows;
-- the development workflow got triggered when there is a push or a pull requests to the development scheme, it builds, runs 
+- The development workflow got triggered when there is a push or a pull requests to the development scheme, it builds, runs 
 UI and Unit tests on the Dev environment (using its scheme).
-- the main one which is get triggered from the pull requests and pushes to the main branch, it uses the release scheme for build,
+- The main one which is get triggered from the pull requests and pushes to the main branch, it uses the release scheme for build,
 unit test, and UI testing. Currently there is no deploy to Appstore since the project isn't in the Appstore.
 
 ## Automated Tests
 The project contains UITests and Unit Tests.
-the coverage is 68.5%
+The coverage is 68.5%
 
 ## Design pattern
 These are examples for design patterns used in the app and not included to:
 ### Singleton
-example for its usage in the app: EnvironmentManager
+Example for its usage in the app: EnvironmentManager
 ### Factory
-example for its usage in the app: ServicesFactory
+Example for its usage in the app: ServicesFactory
 ### Bridge
-example for its usage in the app: Configuration elements
+Example for its usage in the app: Configuration elements
 ### Facade
-example for its usage in the app: Interactor elements
+Example for its usage in the app: Interactor elements
