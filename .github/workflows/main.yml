@@ -27,7 +27,7 @@ jobs:
     env:
      PROJECT: "NewsApp.xcodeproj"
      TESTTARGET: "NewsAppTests"
-     SCHEME: "NewsApp"
+     SCHEME: "NewsApp-Dev"
     needs: build
     runs-on: macos-latest
     if: success()
@@ -40,7 +40,7 @@ jobs:
   ui_test:
     env:
      PROJECT: "NewsApp.xcodeproj"
-     SCHEME: "NewsApp"
+     SCHEME: "NewsApp-Dev"
      TESTTARGET: "NewsAppUITests"
     needs: build
     runs-on: macos-latest

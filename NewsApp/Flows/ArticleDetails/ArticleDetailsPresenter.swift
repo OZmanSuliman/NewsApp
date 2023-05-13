@@ -8,7 +8,6 @@
 import Foundation
 
 protocol ArticleDetailsPresentationLogic {
-    func updateArticle(_ article: NSAttributedString)
 }
 
 class ArticleDetailsPresenter {
@@ -19,7 +18,4 @@ class ArticleDetailsPresenter {
 }
 
 extension ArticleDetailsPresenter: ArticleDetailsPresentationLogic {
-    func updateArticle(_ article: NSAttributedString) {
-        self.viewController.updateArticle(article)
-    }
 }

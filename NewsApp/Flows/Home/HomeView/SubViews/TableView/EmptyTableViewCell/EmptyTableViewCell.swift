@@ -17,6 +17,7 @@ class EmptyTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         setupView()
+        accessibilityIdentifier = "EmptyTableViewCell"
     }
     
     override func prepareForReuse() {

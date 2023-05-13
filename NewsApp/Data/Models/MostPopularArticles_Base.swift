@@ -34,4 +34,10 @@ struct MostPopularArticles_Base : Codable {
         articles = try values.decodeIfPresent([Article].self, forKey: .articles)
 	}
 
+    init(articles: [Article]?, status: String?, copyright : String?, num_results : Int?) {
+        self.articles = articles
+        self.status = status
+        self.copyright = copyright
+        self.num_results = num_results
+    }
 }

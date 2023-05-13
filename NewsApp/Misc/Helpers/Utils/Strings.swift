@@ -16,9 +16,9 @@ enum Strings: String {
     case environmentVariablesPlist = "EnvironmentVariables.plist"
     case unableToLoadPLIST = "Unable to load PLIST at path: %@"
     case PropertyNotOfType = "Property %@ is not of type %@"
-    case unauthorized
+    case unauthorized = "Unauthorized"
     case serverError = "Server Error %@"
-    case requestTimedOut
+    case requestTimedOut = "The request timed out"
     case invalidResponse
     case invalidServerURL
     case networkIssue = "Network Not Available"

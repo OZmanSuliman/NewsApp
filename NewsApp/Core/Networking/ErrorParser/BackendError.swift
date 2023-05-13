@@ -34,7 +34,7 @@ extension BackendError {
     }
 
     static func serverError(withCode code: Int) -> BackendError {
-        return BackendError(statusCode: code, message: Strings.unauthorized.fullString(withParameters: "\(code)"), reason: .serverError)
+        return BackendError(statusCode: code, message: Strings.serverError.fullString(withParameters: "\(code)"), reason: .serverError)
     }
 
     static var requestTimedOut: BackendError {
