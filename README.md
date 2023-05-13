@@ -3,6 +3,10 @@ The App is developed using XCode 14.2, Swift 5.7, UIKit, and tested on iPhone 13
 
 
 
+https://github.com/OZmanSuliman/NewsApp/assets/39956261/477dc5c6-165d-4c6e-a0e6-f2b6e031d97d
+
+
+
 ## Architecture
 The Project built on [Clean Swift architure](https://clean-swift.com).
 ![alt text](http://clean-swift.com/wp-content/uploads/2015/08/VIP-Cycle.png)
