@@ -3,8 +3,9 @@ The App is developed using XCode 14.2, Swift 5.7, UIKit, and tested on iPhone 13
 
 
 
-https://github.com/OZmanSuliman/NewsApp/assets/39956261/477dc5c6-165d-4c6e-a0e6-f2b6e031d97d
-
+[[https://github.com/OZmanSuliman/NewsApp/assets/39956261/477dc5c6-165
+]
+(https://drive.google.com/file/d/1_XXaPDD8kqhRt5c8sp0h65swADIy8y7l/view?usp=drivesdk)](https://drive.google.com/file/d/1_XXaPDD8kqhRt5c8sp0h65swADIy8y7l/view?usp=drivesdk)
 
 
 ## Architecture
