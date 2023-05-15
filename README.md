@@ -3,9 +3,8 @@ The App is developed using XCode 14.2, Swift 5.7, UIKit, and tested on iPhone 13
 
 
 
-[![Demo Video]
-()] 
-([https://drive.google.com/file/d/1_XXaPDD8kqhRt5c8sp0h65swADIy8y7l/view?usp=drivesdk] "watch the video") 
+
+https://drive.google.com/file/d/1_XXaPDD8kqhRt5c8sp0h65swADIy8y7l/view?usp=drivesdk
 
 
 ## Architecture
