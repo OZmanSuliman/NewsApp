@@ -3,8 +3,8 @@ The App is developed using XCode 14.2, Swift 5.7, UIKit, and tested on iPhone 13
 
 
 
+[![Demo Video](https://photos.google.com/share/AF1QipMePi5UGtWCeNjPZj1G7UK__76uWAseIF5asMQFc-sVycUrsXOu_pMEmULEQuzemg/photo/AF1QipP6wm3W-JSL9kOOq9Yqlede0o-qVHeUnuZ4mV_J?key=bVhQNHRhV01WbF9qUml4UDZNcW00Z1l4aDR1QjJR)](https://drive.google.com/file/d/1_XXaPDD8kqhRt5c8sp0h65swADIy8y7l/view?usp=drivesdk)
 
-https://drive.google.com/file/d/1_XXaPDD8kqhRt5c8sp0h65swADIy8y7l/view?usp=drivesdk
 
 
 ## Architecture
